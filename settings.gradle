@@ -7,3 +7,6 @@ pluginManagement {
 
 rootProject.name = "ComposeGuide"
 include(":app")
+for (i in 1..10) {
+    include(":module$i")
+}
